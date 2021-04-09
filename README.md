@@ -1,4 +1,4 @@
-# Dio Todo List Cypress
+# todoList-angular-cypress
 Todo list project using Angular 9 and [Cypress.io](https://cypress.io) to demonstrate E2E tests. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.4.
 
 ## Development server
@@ -12,4 +12,3 @@ Run `npm run cypress` to open cypress interface.
 
 # License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-# todoList-angular-cypress
