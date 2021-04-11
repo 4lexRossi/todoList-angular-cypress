@@ -9,13 +9,14 @@ h1, h2, h3, h4, h5, p, span, strike {
 #task-container {
     max-width: 600px;
     margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.6);
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    background-color: #fff;
     margin-top: 100px;
     margin-bottom: 100px;
     justify-content: space-around;
     align-items: flex-start;
     position: sticky;
+    backdrop-filter: blur(15px);
 }
 
 #form-wrapper {
@@ -26,14 +27,17 @@ h1, h2, h3, h4, h5, p, span, strike {
     background-color: rgba(255, 255, 255, 0.05);
     box-shadow: 0 3px 8px rgba(0,0,0,0.25);
     padding: 40px;
-    backdrop-filter: blur(15px);
 }
 
 #submit {
-    background-color: #36d9b6;
+    background-color: #6dddc5;
     border-radius: 0;
     border: 0;
     color: #fff;
+}
+
+#submit:hover {
+  background-color: #36d9b6;
 }
 
 .flex-wrapper {
