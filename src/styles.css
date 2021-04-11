@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, rgb(22, 0, 100) 0%, rgb(114, 105, 201) 43%, rgb(153, 150, 150) 100%);
+  clip-path: circle(65% at 100% -20%);
+}
+
+body {
+    overflow: hidden;
+    background-color: #232323;
+    background: linear-gradient(90deg, rgb(56, 119, 103) 0%, rgba(56, 56, 82, 1) 43%, rgba(06, 6, 14, 1) 100%);
+}
